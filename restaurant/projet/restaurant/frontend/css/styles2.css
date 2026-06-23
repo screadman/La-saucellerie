@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(../images/pexels-pranav-jain-1707957\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h3{
+    text-align: center;
+    text-shadow: 5px 8px 15px black;
+    text-transform: capitalize;
+    font-style: italic;
+    padding-bottom: 5rem;
+}
+
+/* Navigation */
+nav {
+    background-image: url(../images/nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+nav li {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav li:hover {
+    color: #f1c40f;
+    transform: scale(1.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f1c40f;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px; 
+    padding: 12px 25px; 
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Conteneur principal */
+main {
+    padding: 20px;
+}
+
+/* Conteneur de cartes */
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Styles pour chaque carte */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    padding: 15px;
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Section Quantité et Ajouter au panier */
+.card label,
+.card input,
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.card .quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.card input[type="number"] {
+    width: 70px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Bouton Ajouter au panier */
+.card a {
+    display: block;
+    margin: 15px auto 0;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background-color: #218838;
+}
+
+/* Style de l'image */
+#plat1 img, #plat2 img, #plat3 img, #plat4 img, #plat5 img, #plat6 img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+/* Style des boutons */
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Champ de quantité */
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer{
+    background-color: black;
+}
+#section3{
+    background-image: url(../images/champagne-3515140_1280.jpg);
+    background-size: cover;
+}
+.bas{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h2{
+    padding-bottom: 2rem;
+    color: black;
+}
+i{
+    color: white;
+}
+.fa-solid fa-chevron-up{
+    margin-left: 1rem;
+}
+#to_top {
+    font-size: 3rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    color: white;
+}
+#to_top:hover {
+    color: rgb(134, 132, 129);
+    font-size: 4rem;
+}

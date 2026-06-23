@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Recherche de Repas</title>
+    <meta name="author" content="Steven ATCHALL, Frank Brice Yitemben Kameni, Théo Pouna Brenam, et Raoul Pharel LEKANE">
+    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="stylesheet" href="css/recherche.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="aProposDeNous.html">À propos de nous</a></li>
+            <li><a href="reserver.html#haut">Réservation</a></li>
+            <li>
+                <a href="recherche.html">
+                    <i class="fa fa-search"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Rechercher un repas</h1>
+    </header>
+    <main>
+        <form id="search-form" onsubmit="handleSearch(event)">
+            <label for="meal-input">Entrez le nom du repas :</label>
+            <input type="text" id="meal-input" name="meal" placeholder="Exemple : Pizza" required>
+            <button type="submit">Rechercher</button>
+        </form>
+        
+        <div id="search-results">
+            <!-- Les résultats seront affichés ici -->
+        </div>
+    </main>
+    <footer id="pied">
+        <div class="bas">
+            <h2 style="color: white">Nous contacter</h2>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="bas">
+            <h2 style="color: white">205 rue Monseigneur-Bourget, Lévis, QC G6V 6Z9</h2>
+        </div>
+        <a href="#top">
+            <span class="fas fa-arrow-alt-circle-up" id="to_top"></span>
+        </a>
+    </footer>
+    <script src="https://kit.fontawesome.com/d6973d5988.js" crossorigin="anonymous"></script>
+    <script src="js/recherche.js" crossorigin="anonymous"></script>
+</body>
+</html>
