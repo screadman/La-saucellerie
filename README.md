@@ -1,4 +1,4 @@
-# La SAUCELERIE
+# La SAUCELLERIE
 
 # Project Status
 This was an academic project. The database was hosted on a school-provided account, and access was lost after the course ended, so the live backend/API is no longer running. The code remains available below for review.
